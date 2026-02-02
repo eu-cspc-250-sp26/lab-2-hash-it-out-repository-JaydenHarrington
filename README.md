@@ -196,7 +196,6 @@ When it finishes, you'll see the cracked password displayed.
 
 ```bash
 john --show data/shadow
-```
 
 **Questions to answer in SUBMISSION.md:**
 11. What was karl's password?

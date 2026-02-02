@@ -4,7 +4,7 @@
 **Date:** [Submission Date]  
 **CSPC 250: Computer Systems Security**
 
----
+--- 
 
 ## Part 1: Understanding Hashes (10 points)
 
@@ -12,15 +12,15 @@
 
 **1. What is the MD5 hash of your name?**
 
-[Your answer here]
+[3610ef210f037af8190988ff751062a4 ]
 
 **2. Run the command again with the exact same name. Did the hash change? Why or why not?**
 
-[Your answer here]
+[3610ef210f037af8190988ff751062a4 The hash did not change because nothing in my name change.]
 
 **3. Change one letter of your name (like capitalizing it) and run again. How different is the hash?**
 
-[Your answer here]
+[be70c68fb9f47eb9f2f63e2ef32276d1The hash is completely diffenrent now.]
 
 ---
 
@@ -28,11 +28,11 @@
 
 **4. What is the md5sum of the file you created?**
 
-[Your answer here]
+[3610ef210f037af8190988ff751062a4]
 
 **5. In your own words, explain what a hash collision is and why it's a security concern.**
 
-[Your answer here]
+[A hash collision is when a hash is the exact samething for 2 things and its a security concern because if you can figure out the hash to one thing you have a high posibility to find others witht he same hash]
 
 ---
 
@@ -42,11 +42,11 @@
 
 **6. Why would a system have users with `*` instead of password hashes?**
 
-[Your answer here]
+[So that all the passwords aren't the same and it will be harder to crack]
 
 **7. What do the different parts of karl's password line mean? (Hint: Research the format of `/etc/shadow` entries)**
 
-[Your answer here]
+[username, Encrypted Password, last password change, Min. password age, max. password age, warning period, inactivity period, expiration date]
 
 ---
 
@@ -54,15 +54,15 @@
 
 **8. Why don't systems store passwords in plaintext?**
 
-[Your answer here]
+[Plain text arent safe and easier to hack]
 
 **9. What is a "salt" in password hashing and why is it used?**
 
-[Your answer here]
+[Salt is when you addd random things into the password to completely randomized the hash]
 
 **10. Research the `yescrypt` algorithm (the `$y$` prefix). Why is it considered secure?**
 
-[Your answer here]
+[It is a key derivation function and it it made to defend against cpu attacks by using a lot of memory to help defend against attacking schemes that use  GPUs, FPGAs, and ASICs ]
 
 ---
 
@@ -72,15 +72,15 @@
 
 **11. What was karl's password?**
 
-[Your answer here]
+[lacrosse..pumpkine]
 
 **12. How long did it take John to crack it?**
 
-[Your answer here]
+[like 3 seconds]
 
 **13. Why was this password easy to crack?**
 
-[Your answer here]
+[Because its not salted]
 
 ---
 
@@ -92,7 +92,7 @@
 
 **15. What does this tell you about how Linux verifies passwords during login?**
 
-[Your answer here]
+[They are hevily secured]
 
 ---
 
@@ -100,15 +100,15 @@
 
 **16. Based on this lab, what makes a password "strong"?**
 
-[Your answer here]
+[Randon symbols or the password being randomized all around]
 
 **17. Why do websites now require passwords with numbers, symbols, and mixed case?**
 
-[Your answer here]
+[It make the encryption harder to crack]
 
 **18. If you were designing a password policy for a company, what rules would you set? (At least 3 specific rules)**
 
-[Your answer here]
+[Atleast 8 characters long, Atleast 2 capital letters, Atleast 2 special character, Atleast 2 numbers]
 
 ---
 
@@ -126,7 +126,7 @@ Include three screenshots in the `screenshots/` folder:
 
 What was the most interesting thing you learned in this lab?
 
-[Your answer here]
+[How easy important it is to make all passwords somewhat different from eachother and i think its pretty intresting how only 1 thing can be different and the whole encryption will be different.]
 
 ---
 
@@ -138,5 +138,5 @@ By submitting this lab, I affirm that:
 - I did not use AI tools to generate my responses
 - I understand the concepts and can explain them in my own words
 
-**Signature (type your name):** [Your Name]  
-**Date:** [Date]
+**Signature (type your name):** [Jayden Harrington]  
+**Date:** [2-1-2026]
